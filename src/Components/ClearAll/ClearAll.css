@@ -1,0 +1,20 @@
+.clearAll {
+    display: flex;
+    margin-top: 150px;
+    width: 70%;
+    justify-content: end;
+
+
+}
+
+.clearAll button {
+    border: none;
+    background-color: blue;
+    color: white;
+    height: 40px;
+    padding: 4px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}

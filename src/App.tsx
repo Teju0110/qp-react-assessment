@@ -1,24 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import AddTodo from './Components/AddTodo/AddTodo';
+import NavBar from './Components/NavBar/NavBar';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import ToDoList from './Components/ToDoList/ToDoList';
+import ClearAll from './Components/ClearAll/ClearAll';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <ToastContainer />
+      <NavBar />
+      <AddTodo />
+      <ClearAll />
+      <ToDoList />
+      <Footer />
     </div>
   );
 }

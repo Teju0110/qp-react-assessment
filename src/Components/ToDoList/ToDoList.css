@@ -1,0 +1,14 @@
+.todolist {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* margin-left: 550px; */
+    align-items: center;
+
+
+}
+
+.tabs {
+    overflow-y: auto;
+    height: 400px;
+}

@@ -1,0 +1,13 @@
+.header {
+    background-color: #1362d0;
+    color: white;
+    position: fixed;
+    height: 8%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    margin-left: 20px;
+}
